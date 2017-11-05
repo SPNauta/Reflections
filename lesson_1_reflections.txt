@@ -1,0 +1,64 @@
+Version Control Lesson 1 Reflections
+
+1) How did viewing a diff between two versions of a file help you spot the bug?
+
+It was helpfull because only the differences between the two versions were shown.
+Therefore, you did not have to look at all the other content in the versions.
+By only looking at the difference between two versions of the file, it is easy to
+see were, for example, a typo is made while adapting the file.
+
+2) How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Having the entire history of a file can make you a more efficient programmer,
+because it allows you to go back to the older versions and see what you changed.
+By evaluating these changes and their implications you can learn what parts of
+the code do.
+
+3) What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+One of the pros of manually choosing when to create a commit is the fact that you
+can choose when to commit. Therefore, the commits will be logical and contain a
+specific change. When automatically commiting the problem can occur that you are
+half way fixing a problem and then it commits. It would take some time before the
+program will commmit again, which results in a delay in commiting the solution to
+a problem.
+A con of the manually commiting is that when you forget to do this you have a lot
+of changes in a content compared to the previous commit. Comparing the differences
+will than become very difficult and time-consuming as it contains a larger amount,
+which is not specifically related to one logical change. If commits were automatically
+created the difference between the commits will always be relatively small.
+
+4) Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems saving multiple files in one commit allow for the tracking
+of multiple files using one commit. If you make a major change in one file without
+change other files, you still will same the other files when making a commit. If
+you encounter a problem you don't have to search for each file when the difference
+was made and compare them, but you can just compare all files together.
+Treating the files seperately would have as an advantege that there are no unnecessary
+commits made for files were no changes were made in. For example by commiting multiple
+files at once, while you changed only something in one file, will result also in
+a commit for the other files, while no change was made to them. Which makes the 
+commit for those files basically unnecessary.
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+git log can be used to view the history of the files in the repository. By giving
+usefull messages to the commits you can easily know what the changes made in the
+files compared to the previous commit are. By using git diff you can see the changes
+between two versions of the files. This is for example usefull when you made a typo.
+
+6) How might using version control make you more confident to make changes that
+could break something?
+
+Yes, because you will be able to return to an older version that was still working
+when something goes completely wrong.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to get to know Git a little bit better before knowing what to use it
+for. But if I understand it I would like to use it for large programming projects.
